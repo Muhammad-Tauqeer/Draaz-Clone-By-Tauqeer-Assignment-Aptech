@@ -4,6 +4,7 @@ body{
 .background_color{
     background-color: orangered !important;
     /* padding: auto; */
+    color: white;
 }
 .txt-color{
     color: white !important;
@@ -40,6 +41,14 @@ max-width: 1250px !important;
   .links{
     text-decoration: none;  
   }
+  .shadow-hover-effect:hover{
+    box-shadow: 0 1rem 3rem #20c989;
+
+  }
+  .ms-7{
+    margin-left: 500px !important;
+  }
+
 
 
 @media only screen and (max-width: 768px) {
@@ -66,5 +75,8 @@ max-width: 1250px !important;
 .img-size{
     height: 200px !important;
     width: 100%;
+}
+.box-margin-mobile{
+    margin-top: 8% !important;
 }
 }
